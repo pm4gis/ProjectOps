@@ -1,47 +1,204 @@
 ---
 sidebar_position: 1
+title: Welcome to ProjectOps
 ---
 
-# Tutorial Intro
+# ProjectOps
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## From Ideas to Outcomes, Without the Gaps
 
-## Getting Started
+ProjectOps is a practical operating approach for delivering change. It connects planning, delivery, business change, and benefits into one continuous workflow rather than separate activities managed in isolation.
 
-Get started by **creating a new site**.
+Many organisations struggle because planning, development, implementation, and adoption are treated as different disciplines owned by different teams, each using separate tools and language. ProjectOps integrates these activities into a single operational model that focuses on flow, clarity, and real outcomes.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+## Why ProjectOps Exists
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Traditional project environments often suffer from predictable problems:
 
-## Generate a new site
+• Planning happens without enough delivery context  
+• Delivery teams lose sight of business intent or value  
+• Change management is introduced too late  
+• Documentation becomes fragmented or outdated  
+• Benefits are defined early but rarely measured later  
+• Decision history disappears, leading to repeated debates  
 
-Generate a new Docusaurus site using the **classic template**.
+ProjectOps treats delivery as an operational system rather than a sequence of disconnected stages.
 
-The classic template will automatically be added to your project after you run the command:
+Instead of asking “Are we following the process?”, ProjectOps asks:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+> Are we moving smoothly from idea to real-world outcome?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## The Core Idea
 
-## Start your site
+ProjectOps views work as a continuous flow:
 
-Run the development server:
+**Idea → Planning → Delivery → Adoption → Outcome → Learning**
 
-```bash
-cd my-website
-npm run start
-```
+Each stage is connected, with shared artefacts and clear feedback loops. The goal is not to enforce a rigid methodology, but to create a reliable structure that supports both agile and structured planning approaches.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## What Makes ProjectOps Different
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### Integrated Thinking
+
+ProjectOps combines several traditionally separate practices:
+
+• Portfolio and roadmap planning  
+• Business analysis and requirements  
+• Delivery execution  
+• Stakeholder and organisational change  
+• Benefits realisation  
+• Knowledge management  
+
+Rather than replacing existing tools or methods, ProjectOps provides a way to align them.
+
+---
+
+### Operational Rather Than Administrative
+
+Many project frameworks focus on governance or documentation. ProjectOps emphasises operational flow:
+
+• Clear ownership of outcomes  
+• Visible dependencies  
+• Continuous communication between roles  
+• Lightweight but meaningful artefacts  
+• Regular feedback loops
+
+---
+
+### Human-Centred Delivery
+
+Technology and process matter, but successful change depends on people. ProjectOps ensures that:
+
+• Stakeholders understand why change is happening  
+• Training and readiness are planned early  
+• Adoption is measured, not assumed  
+• Support mechanisms exist after release
+
+---
+
+## The Five Core Practices
+
+ProjectOps can be understood through five interconnected practices:
+
+### PlanningOps
+
+Defines priorities, sequencing, and scope. Ensures work starts for the right reasons and stays aligned with strategy.
+
+Key outcomes:
+
+• Clear roadmap and priorities  
+• Defined scope boundaries  
+• Visible dependencies
+
+---
+
+### BuildOps
+
+Focuses on execution and delivery flow. Provides structure without unnecessary complexity.
+
+Key outcomes:
+
+• Transparent work tracking  
+• Predictable releases  
+• Early identification of risks and issues
+
+---
+
+### ChangeOps
+
+Prepares people and organisations for change, ensuring adoption rather than resistance.
+
+Key outcomes:
+
+• Stakeholder alignment  
+• Clear communication  
+• Effective training and readiness
+
+---
+
+### ValueOps
+
+Tracks benefits and outcomes beyond delivery completion.
+
+Key outcomes:
+
+• Measurable success criteria  
+• Ongoing benefit tracking  
+• Evidence-based decision making
+
+---
+
+### KnowledgeOps
+
+Maintains shared understanding across the lifecycle.
+
+Key outcomes:
+
+• Decision transparency  
+• Traceable requirements  
+• Continuous learning
+
+---
+
+## Who ProjectOps Is For
+
+ProjectOps is designed for environments where delivery crosses organisational boundaries:
+
+• Programme and project managers  
+• Business analysts and architects  
+• Product and delivery teams  
+• Change managers and trainers  
+• Operational leaders and governance teams  
+
+It works in:
+
+• enterprise programmes  
+• digital transformation initiatives  
+• infrastructure or technical projects  
+• organisational change efforts
+
+---
+
+## Principles
+
+ProjectOps is guided by a small set of principles:
+
+1. Deliver outcomes, not just outputs.  
+2. Keep planning connected to execution.  
+3. Make decisions visible and traceable.  
+4. Integrate change management into delivery, not after it.  
+5. Reduce complexity without removing structure.
+
+---
+
+## How to Use This Site
+
+This site acts as a practical reference rather than a rigid framework.
+
+Suggested path:
+
+1. Read **What is ProjectOps** for conceptual grounding.  
+2. Explore the **Core Model** pages to understand the practices.  
+3. Use Guides and Templates to apply ProjectOps in real environments.  
+4. Adapt and evolve the model to suit your organisation.
+
+---
+
+## A Living Model
+
+ProjectOps is not a finished product. It is intended to grow through real-world use, iteration, and shared learning.
+
+You are encouraged to:
+
+• adapt terminology  
+• refine artefacts  
+• simplify where possible  
+• add examples from practice
+
+The goal is clarity and effectiveness, not perfection.
