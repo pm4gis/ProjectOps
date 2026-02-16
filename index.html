@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline Kanban Board</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <h1>Offline Kanban Board</h1>
+        <p>Everything is saved in your browser (localStorage key: <code>offlineKanbanV1</code>).</p>
+      </header>
+
+      <section class="toolbar" aria-label="Board tools">
+        <button id="exportBtn" type="button">Export JSON</button>
+        <label class="import-label" for="importInput">Import JSON</label>
+        <input id="importInput" type="file" accept="application/json" />
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section id="board" class="board" aria-label="Kanban board"></section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.3/Sortable.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
