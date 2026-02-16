@@ -1,0 +1,160 @@
+:root {
+  --bg: #f5f7fb;
+  --panel: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --primary: #2563eb;
+  --danger: #dc2626;
+  --border: #d1d5db;
+  --shadow: 0 8px 20px rgba(31, 41, 55, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-header {
+  margin-bottom: 1rem;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.app-header p {
+  margin-top: 0.4rem;
+  color: var(--muted);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+button,
+.import-label {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover,
+.import-label:hover {
+  border-color: var(--primary);
+}
+
+#importInput {
+  display: none;
+}
+
+.status {
+  margin: 0;
+  color: var(--muted);
+  min-height: 1.2rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(230px, 1fr));
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.column {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 0.75rem;
+  min-height: 350px;
+}
+
+.column h2 {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.add-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.add-input {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.45rem;
+}
+
+.cards {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #f9fafb;
+  padding: 0.55rem;
+  cursor: grab;
+}
+
+.card-text {
+  margin: 0 0 0.45rem 0;
+  overflow-wrap: anywhere;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.card-actions button {
+  padding: 0.3rem 0.55rem;
+  font-size: 0.82rem;
+}
+
+button.delete {
+  color: var(--danger);
+  border-color: #fecaca;
+}
+
+.drag-ghost {
+  opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+  .board {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .board {
+    grid-template-columns: 1fr;
+  }
+}
