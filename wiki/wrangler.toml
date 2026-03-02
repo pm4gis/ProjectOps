@@ -1,0 +1,16 @@
+﻿
+name = "firewall-wiki-cf"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "firewall_wiki_clean"
+database_id = "ef970c78-000e-4abb-8d8e-b5cfcfe5752e"
+
+[[r2_buckets]]
+binding = "ATTACHMENTS"
+bucket_name = "firewall-wiki-attachments"
+
+
+
